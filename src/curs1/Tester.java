@@ -22,8 +22,21 @@ public class Tester {
 	public void setNume(String nume) {
 		this.nume = nume;
 	}
+	//constructor
+	//public Tester() {}
 	
+	public Tester(String nume, int rate) {
+		setNume(nume);
+		ratePerHour = rate;
+	}
 	
+	public Tester(String nume, int rate, int numar) {
+		setNume(nume);
+		ratePerHour = rate;
+	}
+
+	
+		
 	//Tester obj = new Tester();
 	/*
 	 * Tester --Numele clasei
@@ -34,10 +47,6 @@ public class Tester {
 	 */
 	
 	//Tester obj = new Tester();
-	// obj.setNume("Oana");
-	
-	
-	
-	
-	
+	//obj.setNume("Oana");
+
 }
